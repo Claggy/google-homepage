@@ -1,12 +1,23 @@
 #main {
-    margin: 12em auto;
+    margin: 12.3em auto;
     text-align: center;
     -webkit-appearance: none;
     -moz-appearance: none;
 }
 
 #searchbox {
-    margin-top: 15px;
+    margin: 20px 0 10px 0;
+    border: 0px solid;
+    box-shadow: 0 2px 2px 0 #ccc, 0 0 0 1px #E4E4E4;
+    width: 584px;
+    height: 44px;
+    padding: 0px 16px;
+    box-sizing: border-box;
+}
+
+#searchbox:hover, #searchbox:focus {
+     box-shadow: 0 3px 8px 0 #ccc, 0 0 0 1px #E4E4E4;
+     transition: box-shadow 200ms;
 }
 
 #searchbuttons {
@@ -21,5 +32,13 @@
     border: 1px solid #f2f2f2;
     color: #757575;
     padding: 10px 16px; 
-    margin: 0 0.1em;  
+    margin: 0 .1em;
+    box-sizing: border-box;
+    height: 36px;
+}
+
+.button:hover {
+    border: 1px solid #c6c6c6;
+    box-shadow: 0 1px 1px #ccc;
+    color: #222;
 }
