@@ -1,8 +1,12 @@
-#main {
-    margin: 12.3em auto;
-    text-align: center;
+body {
     -webkit-appearance: none;
     -moz-appearance: none;
+    margin: 0;
+}
+
+#main {
+    margin: 10em auto;
+    text-align: center;
 }
 
 #searchbox {
@@ -47,7 +51,6 @@
     text-align: right;
     margin-right: 20px;
     margin-top: 1em;
-
 }
 
 #signin {
@@ -87,4 +90,33 @@ a:hover {
 
 #googleapps:hover {
     opacity: 1;
+}
+
+#footer {
+    display: flex;
+    box-sizing: border-box;
+    background-color: #f2f2f2;
+    border: 1px solid #e4e4e4;
+    line-height: 40px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 0 29px;
+}
+
+#footer a {
+    padding: 0;
+}
+
+#footleft {
+    width: 50%;
+    opacity: .75;
+    word-spacing: 1.6em;
+}
+
+#footright {
+    width: 50%;
+    opacity: .75;
+    text-align: right;
+    word-spacing: 1.6em;
 }
